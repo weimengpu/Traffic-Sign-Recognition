@@ -62,10 +62,10 @@ My final model consisted of the following layers:
 | Layer         		|     Description	        					|
 |:---------------------:|:---------------------------------------------:|
 | Input         		| 32x32x3 RGB image   							|
-| Convolution 5x5     	| stride 1x1, valid padding, outputs 28x28x6 	|
+| Convolution 5x5,     	| stride 1x1, valid padding, outputs 28x28x6 	|
 | RELU					|												|
 | Max pooling	      	| stride 2x2,  outputs 14x14x6 				|
-| Convolution 5x5	    | stride 1x1, valid padding, outputs 10x10x16      									|
+| Convolution 5x5,	    | stride 1x1, valid padding, outputs 10x10x16      									|
 | RELU					|												|
 | Max pooling	      	| 2x2 stride,  outputs 5x5x16 				|
 |	Flatten					|												|
