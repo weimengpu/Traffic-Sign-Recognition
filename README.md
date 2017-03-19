@@ -115,7 +115,7 @@ The second, fourth and fifth shouldn't be hard since they exist in the dataset.
 
 The third might be challenging because there are numbers within the sign.
 
-![Ground-Level Traffic Lights](./test_images/Ground-Level Traffic Lights.jpg)
+![Ground-Level Traffic Lights](./test_images/Ground-Level_Traffic_Lights.jpg)
 
 ![Road Work](./test_images/Road Work.jpg)
 
