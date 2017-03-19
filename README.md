@@ -94,7 +94,7 @@ Highest validation set accuracy of **0.911**
 Test set accuracy of **0.899**
 
 The architecture from Nvidia's End to End Learning for Self-Driving Cars was first chosen.
-The reason is that I have found this network pretty efficient in project 3.
+The reason is that I have found this network pretty efficient in the behavioral cloning project.
 
 However, it didn't perform well enough to utilize for traffic sign images if the images were scaled to 32x32. I believe the architecture could be proven effective if the images were in the original size.
 
