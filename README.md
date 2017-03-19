@@ -1,9 +1,4 @@
 # **Traffic Sign Recognition**
-<<<<<<< HEAD
-=======
-
-## Weimeng Pu
->>>>>>> origin/master
 
 ---
 
