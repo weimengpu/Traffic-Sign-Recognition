@@ -62,10 +62,10 @@ My final model consisted of the following layers:
 | Layer         		|     Description	        					|
 |:---------------------:|:---------------------------------------------:|
 | Input         		| 32x32x3 RGB image   							|
-| Convolution 5x5     	| 1x1 stride, valid padding, outputs 28x28x6 	|
+| Convolution 5x5     	| stride 1x1, valid padding, outputs 28x28x6 	|
 | RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 14x14x6 				|
-| Convolution 5x5	    | 1x1 stride, valid padding, outputs 10x10x16      									|
+| Max pooling	      	| stride 2x2,  outputs 14x14x6 				|
+| Convolution 5x5	    | stride 1x1, valid padding, outputs 10x10x16      									|
 | RELU					|												|
 | Max pooling	      	| 2x2 stride,  outputs 5x5x16 				|
 |	Flatten					|												|
@@ -117,14 +117,19 @@ The second, fourth and fifth shouldn't be hard since they exist in the dataset.
 The third might be challenging because there are numbers within the sign.
 
 <img src="./test_images/Ground-Level_Traffic_Lights.jpg" width="250" />
+Ground-Level Traffic Lights
 
 <img src="./test_images/Road_Work.jpg" width="250" />
+Road Work
 
 <img src="./test_images/Steep_Downgrade.jpg" width="250" />
+Steep Downgrade
 
 <img src="./test_images/Stop_Sign.jpg" width="250" />
+Stop Sign
 
 <img src="./test_images/Watch_for_Children.jpg" width="250" />
+Watch for Children
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
