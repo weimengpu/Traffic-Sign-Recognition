@@ -12,7 +12,7 @@ The goals / steps of this project are the following:
 
 ---
 
-#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
+#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.
 
 You're reading it! and here is a link to my [project notebook](./Traffic_Sign_Classifier.ipynb)
 
@@ -36,7 +36,8 @@ The code for this step is contained in the **third** code cell of the IPython no
 
 Here is an exploratory visualization of the data set. It is a **histogram** showing how the data:
 
-![](./output_images/result1.jpg)
+<img src="./output_images/result1.jpg" width="500" />
+
 
 ### Design and Test a Model Architecture
 
@@ -115,15 +116,15 @@ The second, fourth and fifth shouldn't be hard since they exist in the dataset.
 
 The third might be challenging because there are numbers within the sign.
 
-![Ground-Level_Traffic_Lights](./test_images/Ground-Level_Traffic_Lights.jpg)
+<img src="./test_images/Ground-Level_Traffic_Lights.jpg" width="250" />
 
-![Road_Work](./test_images/Road_Work.jpg)
+<img src="./test_images/Road_Work.jpg" width="250" />
 
-![Steep_Downgrade](./test_images/Steep_Downgrade.jpg)
+<img src="./test_images/Steep_Downgrade.jpg" width="250" />
 
-![Stop_Sign](./test_images/Stop_Sign.jpg)
+<img src="./test_images/Stop_Sign.jpg" width="250" />
 
-![Watch_for_Children](./test_images/Watch_for_Children.jpg)
+<img src="./test_images/Watch_for_Children.jpg" width="250" />
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -159,4 +160,4 @@ For the Ground-Level Traffic Lights image, the model is relatively sure that thi
 
 And the rest look like this:
 
-![](./output_images/result2.jpg)
+<img src="./output_images/result2.jpg" width="500" />
