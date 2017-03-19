@@ -117,13 +117,13 @@ The third might be challenging because there are numbers within the sign.
 
 ![Ground-Level Traffic Lights](./test_images/Ground-Level_Traffic_Lights.jpg)
 
-![Road Work](./test_images/Road Work.jpg)
+![Road Work](./test_images/Road_Work.jpg)
 
-![Steep Downgrade](./test_images/Steep Downgrade.jpg)
+![Steep Downgrade](./test_images/Steep_Downgrade.jpg)
 
-![Stop Sign](./test_images/Stop Sign.jpg)
+![Stop Sign](./test_images/Stop_Sign.jpg)
 
-![Watch for Children](./test_images/Watch for Children.jpg)
+![Watch for Children](./test_images/Watch_for_Children.jpg)
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
