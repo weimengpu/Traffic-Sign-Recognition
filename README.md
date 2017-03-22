@@ -32,7 +32,7 @@ Here is an exploratory visualization of the data set. It is a **histogram** show
 
 <img src="./output_images/result1.jpg" width="500" />
 
-
+---
 ### Design and Test a Model Architecture
 
 #### 1. Describe how, and identify where in your code, you preprocessed the image data. What tecniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc.
@@ -97,7 +97,7 @@ Afterwards, LeNet architecture was thus chosen. The motivation is that LeNet was
 
 It's working pretty good actually. I didn't expect it to achieve almost perfect accuracy like other complicated network and LeNet was still able to give me around 90% accuracy in both training and testing stages.
 
-
+---
 ### Test a Model on New Images
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
