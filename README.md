@@ -1,8 +1,7 @@
 # **Traffic Sign Recognition**
 
-**Build a Traffic Sign Recognition Project**
-
 The goals / steps of this project are the following:
+
 * Load the data set from German Traffic Sign Dataset(resized to 32x32)
 * Explore, summarize and visualize the data set
 * Design, train and test a model architecture
@@ -11,11 +10,6 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 
 ---
-
-#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.
-
-You're reading it! and here is a link to my [project notebook](./Traffic_Sign_Classifier.ipynb)
-
 ### Data Set Summary & Exploration
 
 #### 1. Provide a basic summary of the data set and identify where in your code the summary was done. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
@@ -47,7 +41,7 @@ The code for this step is contained in the fourth code cell of the IPython noteb
 
 I **shuffled** the dataset and applied a simple normalization to the input data which scaled the X_train and X_test values from [0:255] to **[0.1:0.9]** interval.
 
-#### 2. Describe how, and identify where in your code, you set up training, validation and testing data. How much data was in each set? Explain what techniques were used to split the data into these sets. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, identify where in your code, and provide example images of the additional data)
+#### 2. Describe how, and identify where in your code, you set up training, validation and testing data. How much data was in each set? Explain what techniques were used to split the data into these sets.
 
 The code for splitting the data into training and validation sets is already provided in the **first** code cell of the IPython notebook.  
 
@@ -131,7 +125,7 @@ Stop Sign
 <img src="./test_images/Watch_for_Children.jpg" width="250" />
 Watch for Children
 
-#### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
+#### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set
 
 The code for making predictions on my final model is located in the **eleventh** cell of the Ipython notebook.
 
@@ -148,7 +142,7 @@ Here are the results of the prediction:
 
 The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 40%.
 
-#### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction and identify where in your code softmax probabilities were outputted. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
+#### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction and identify where in your code softmax probabilities were outputted. Provide the top 5 softmax probabilities for each image along with the sign type of each probability.
 
 The code for making predictions on my final model is located in the **12th** and **13th** cell of the Ipython notebook.
 
